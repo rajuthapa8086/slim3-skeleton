@@ -60,7 +60,6 @@ abstract class AbstractBaseController
         $template = '',
         array $data = []
     ) {
-    
         return call_user_func_array([
         $this,
         (function () {
@@ -75,7 +74,7 @@ abstract class AbstractBaseController
     }
 
     /**
-     * Returns Appropriate Response
+     * Returns Html as Response
      *
      * @param Psr\Http\Message\ResponseInterface $res
      * @param string $tempate
@@ -92,7 +91,7 @@ abstract class AbstractBaseController
     }
 
     /**
-     * Returns Appropriate Response
+     * Returns Json as Response
      *
      * @param Psr\Http\Message\ResponseInterface $res
      * @param string $tempate

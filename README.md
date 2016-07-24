@@ -7,7 +7,7 @@
  * Database Support.
  * Responding as HTML or JSON on the fly. (or with custom response).
  * Twig Template Engine.
- * Controllers
+ * Controllers.
 
 ## Installing and Configuring
 
