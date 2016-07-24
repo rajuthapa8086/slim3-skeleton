@@ -16,6 +16,6 @@ $container = $app->getContainer();
 
 require_once __DIR__ . '/../container.php';
 
-$app->get('/', 'App\\Controllers\\HomeController:index');
+require_once __DIR__ . '/../app/routes.php';
 
 $app->run();
