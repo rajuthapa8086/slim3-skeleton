@@ -31,7 +31,7 @@ http://localhost:4040/
 ```
 **To get json as response:**
 ```
-http://localhost:4040?response=json
+http://localhost:4040/?response=json
 ```
 
 
