@@ -1,0 +1,19 @@
+{
+    "name": "rajuthapa8086/slim3-skeleton",
+    "description": "A Slim 3 MVC Skeleton",
+    "authors": [
+        {
+            "name": "rajuthapa8086",
+            "email": "raju.thapa.8086@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.4",
+        "slim/twig-view": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app/"
+        }
+    }
+}

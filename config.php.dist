@@ -1,0 +1,40 @@
+<?php
+
+return [
+
+    /**
+     * Your date timezone
+     */
+    'dateTimezone' => 'your_date_timezone',
+    
+    /**
+     * Set the value to false, if you are running live.
+     */
+    'displayErrors' => true,
+
+    /**
+     * Your template path.
+     */
+    'template' => __DIR__ . '/templates',
+
+    /**
+     * Your twig template cache path.
+     * - cache directory need to be writable
+     * - chmod -R 0777 ./your/cache/directroy
+     */
+    'templateCache' => __DIR__ . '/templates/cache',
+
+    /**
+     * Your database information.
+     */
+    'db' => [
+        # - use pgsql for postgres and mysql for mysql
+        'host' => 'your_database_host',
+        'user' => 'your_database_user',
+        'pass' => 'your_database_pass',
+        'name' => 'your_database_name',
+        # - normally psql = 5443 | msql = 3306
+        // 'port' => 'your_database_post',
+    ],
+
+];
