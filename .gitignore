@@ -1,6 +1,6 @@
 /vendor/
 composer.lock
-/templates/cache/
+/templates/cache/*
 !/templates/cache/.keep
 /config.php
 .DS_Store
