@@ -52,6 +52,7 @@ BooksController extends AbstractBaseController
      *
      * @param Psr\Http\Message\ServerRequestInterface $req
      * @param Psr\Http\Message\ResponseInterface $res
+     * @param array $args
      *
      * @return Psr\Http\Message\ResponseInterface
      */
@@ -71,4 +72,4 @@ SQL;
 ## Notes
 * For further more information about database usages [see this gist](https://gist.github.com/rajuthapa8086/0f002a02fa57fce995382877fbfcfa86).
 
-* For twig template [see official documentaion](http://twig.sensiolabs.org/documentation)
+* For twig template [see official documentaion](http://twig.sensiolabs.org/documentation).

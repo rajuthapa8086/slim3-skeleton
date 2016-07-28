@@ -94,7 +94,6 @@ abstract class AbstractBaseController
      * Returns Json as Response
      *
      * @param Psr\Http\Message\ResponseInterface $res
-     * @param string $tempate
      * @param array $data
      *
      * @return Psr\Http\Message\ResponseInterface

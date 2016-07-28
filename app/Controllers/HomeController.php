@@ -12,10 +12,11 @@ class HomeController extends AbstractBaseController
      *
      * @param Psr\Http\Message\ServerRequestInterface $req
      * @param Psr\Http\Message\ResponseInterface $res
+     * @param array $args
      *
      * @return Psr\Http\Message\ResponseInterface
      */
-    public function index(Request $req, Response $res, $args)
+    public function index(Request $req, Response $res, array $args)
     {
         return $this->getResponse($res, 'index.twig', [
             'contacts' => [
